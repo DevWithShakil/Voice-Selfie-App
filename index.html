@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Selfie App</title>
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+    <!-- Webcam CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"
+        integrity="sha512-dQIiHSl2hr3NWKKLycPndtpbh5iaHLo6MwrXm7F0FM5e+kL2U16oE9uIwPHUl6fQBeCthiEuV/rzP3MiAB8Vfw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <center>
+            <a href="" id="link" download="myselfie.png"></a>
+            <h1>Voice Selfie App</h1>
+            <img id="logo_img" src="https://media1.tenor.com/m/QVY9INACqDEAAAAC/instagram-phone.gif" alt="">
+            <hr>
+            <h4>Please press allow as soon as the popup comes, and after that give a voice command.</h4>
+
+            <div class="form-group">
+                <h3>Say "My Selfie Please"</h3>
+                <label>Your Voice Output:</label>
+                <textarea class="form-control" id="textbox" readonly></textarea>
+            </div>
+
+            <button class="btn btn-primary" onclick="start()">Start</button>
+            <p class="mt-3">Press the Start button</p>
+
+            <label for="">Your Webcam:</label>
+
+            <div id="camera"></div>
+            <br>
+
+            <label for="">Your Selfie will display here:</label>
+            <div id="result"></div>
+
+            <footer>
+                <p>2024 My Selfie App. All Rights Reserved.</p>
+            </footer>
+
+        </center>
+    </div>
+    <!-- External JS Script -->
+
+
+    <script src="scipt.js"></script>
+</body>
+
+</html>

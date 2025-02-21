@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: aliceblue;
+  padding-top: 50px;
+  margin: 0;
+  height: 100%;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  max-width: 600px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 30px;
+  color: rgb(39, 36, 36);
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h4 {
+  color: red;
+  font-size: 15px;
+}
+
+#logo_img {
+  border-radius: 50%;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.form-group h3,
+label {
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#textbox {
+  margin-top: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 12px;
+  width: 80%;
+  max-width: 400px;
+  margin: 10px auto;
+  background-color: wheat;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+.btn-primary:hover {
+  background-color: #5b92cc;
+}
+
+#camera {
+  margin-top: 20px;
+  width: 360px;
+  border: 2px solid #ddd;
+  height: 250px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#result {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: azure;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  max-width: 400px;
+  margin: 10px auto;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 15px;
+  color: gray;
+}
